@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+#bl{
+    background-color: black;
+    height:100vh;
+    width: 100%;
+    display: flex;
+}
+#box{
+     
+    background-color:whitesmoke;
+    height: 500px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 480px;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+#top{
+    padding-top: 30px;
+    height: 50px;
+    width: 125px;
+    
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    margin-left: 140px;
+}
+.g2{
+    background-color: whitesmoke;
+    width: 27px;
+    font-size:xx-large;
+    font-weight: bolder;
+    color: blue;
+}
+.g3{
+    background-color:whitesmoke;
+    width: 22px;
+    font-size:xx-large;
+    font-weight: bolder;
+    color: red;
+}
+.g4{
+    background-color:whitesmoke;
+    width: 22px;
+    font-size:xx-large;
+    font-weight: bolder;
+    color: rgb(224, 224, 15);
+}
+.g5{
+    background-color:whitesmoke;
+    width: 22px;
+    font-size:xx-large;
+    font-weight: bolder;
+    color: blue;
+}
+.g6{
+    background-color: whitesmoke;
+    width: 13px;
+    font-size:xx-large;
+    font-weight: bolder;
+    color: green;
+}
+.g7{
+    background-color: whitesmoke;
+    width: 22px;
+    font-size:xx-large;
+    font-weight: bolder;
+    color: red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+#fname{
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    margin-left: 60px;
+}
+#pass{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+button{
+    background-color: blue;
+    height: 40px;
+    width: 90px;
+    margin: 40px 150px;
+    border-radius: 30px;
+}
+ button:hover{
+    background-color: green;
+}  
+#new{
+    margin-left: 120px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
